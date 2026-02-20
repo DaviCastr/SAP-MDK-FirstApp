@@ -1,0 +1,16 @@
+{
+    "PopoverItems": [{
+            "Title": "Add Product",
+            "OnPress": "/FirstMDK/Actions/com_sap_edm_sampleservice_v4/Suppliers/NavToSuppliers_CreateProduct.action"
+        },
+        {
+            "Title": "Add PurchaseOrderHeader",
+            "OnPress": "/FirstMDK/Actions/com_sap_edm_sampleservice_v4/Suppliers/NavToSuppliers_CreatePurchaseOrderHeader.action"
+        },
+        {
+            "Title": "Delete",
+            "OnPress": "/FirstMDK/Rules/com_sap_edm_sampleservice_v4/Suppliers/Suppliers_DeleteConfirmation.js"
+        }
+    ],
+    "_Type": "Action.Type.PopoverMenu"
+}

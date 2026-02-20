@@ -1,0 +1,9 @@
+{
+    "Service": "/FirstMDK/Services/com_sap_edm_sampleservice_v4.service",
+    "_Type": "Action.Type.OfflineOData.Upload",
+    "ActionResult": {
+        "_Name": "sync"
+    },
+    "OnSuccess": "/FirstMDK/Actions/com_sap_edm_sampleservice_v4/Service/DownloadStartedMessage.action",
+    "OnFailure": "/FirstMDK/Actions/com_sap_edm_sampleservice_v4/Service/SyncFailureMessage.action"
+}
